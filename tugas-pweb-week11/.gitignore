@@ -1,0 +1,22 @@
+# Agent tooling (Claude Code): skills, commands, settings, dan policy agent.
+# Tidak relevan untuk pengguna repo, jadi tidak ikut di-commit.
+.claude/
+CLAUDE.md
+
+# Berkas unggahan pendaftar: jangan pernah masuk repo.
+# Struktur folder tetap terjaga lewat .gitkeep dan .htaccess.
+ppdb-smk/uploads/*
+!ppdb-smk/uploads/.gitkeep
+!ppdb-smk/uploads/.htaccess
+
+# Kredensial lokal
+.env
+.env.*
+*.key
+*.pem
+
+# Berkas sementara OS dan editor
+.DS_Store
+Thumbs.db
+*.swp
+*~
