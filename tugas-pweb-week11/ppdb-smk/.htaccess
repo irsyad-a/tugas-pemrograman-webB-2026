@@ -1,0 +1,7 @@
+# Cegah direktori listing
+Options -Indexes
+
+# Lindungi file konfigurasi sensitif
+<FilesMatch "^(database\.php|\.env|\.git)">
+  Require all denied
+</FilesMatch>
